@@ -1,0 +1,48 @@
+    Create a new file called benford_guardian_plus.sh and open it for editing.
+
+    Add the following content to the file:
+
+bash
+
+#!/bin/bash
+
+# Benford Guardian Plus - Installation and Usage Guide
+
+# Installation
+echo "=== Benford Guardian Plus - Installation ==="
+echo "1. Ensure that Python 3 is installed on your system."
+echo "2. Install the required dependencies:"
+echo "   $ pip install pandas matplotlib numpy scipy"
+echo "3. Download the 'benford_guardian_plus.py' script."
+echo "4. Make the script executable:"
+echo "   $ chmod +x benford_guardian_plus.py"
+echo "5. You're ready to use Benford Guardian Plus!"
+
+# Usage
+echo "=== Benford Guardian Plus - Usage ==="
+echo "To run the script, execute the following command:"
+echo "$ ./benford_guardian_plus.py network_traffic_data.csv"
+echo "Replace 'network_traffic_data.csv' with the path to your network traffic data file."
+echo "The script will analyze the data and provide insights on potential malicious behaviors."
+
+# End of instructions
+
+    Save the file and exit the text editor.
+
+    Make the bash script executable by running the following command in the terminal:
+
+bash
+
+$ chmod +x benford_guardian_plus.sh
+
+    You can now run the bash script by executing the following command:
+
+bash
+
+$ ./benford_guardian_plus.sh
+
+This will display the installation and usage instructions for the "Benford Guardian Plus" script.
+
+Note: Make sure to have the benford_guardian_plus.py script available in the same directory or update the installation instructions with the correct location of the script.
+
+Feel free to modify the instructions and script file according to your specific needs and naming conventions.
